@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".CircleActivity">
 
-    <com.ylw.surfacetest.scene.CircleView
+    <com.wj.surfacetest.scene.CircleView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

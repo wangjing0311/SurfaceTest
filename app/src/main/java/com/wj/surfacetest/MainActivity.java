@@ -1,4 +1,4 @@
-package com.ylw.surfacetest;
+package com.wj.surfacetest;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -9,10 +9,10 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 
-import com.ylw.surfacetest.scene.Background;
-import com.ylw.surfacetest.scene.Circle;
-import com.ylw.surfacetest.scene.CricleProgress;
-import com.ylw.surfacetest.scene.MultiLine;
+import com.wj.surfacetest.scene.Background;
+import com.wj.surfacetest.scene.Circle;
+import com.wj.surfacetest.scene.CricleProgress;
+import com.wj.surfacetest.scene.MultiLine;
 
 import java.util.Timer;
 import java.util.TimerTask;

@@ -1,14 +1,13 @@
-package com.ylw.surfacetest;
+package com.wj.surfacetest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CircleActivity extends AppCompatActivity {
+public class FiveActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activityircle);
-
+        setContentView(R.layout.activity_five);
     }
 }

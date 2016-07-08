@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ylw.surfacetest">
+    package="com.wj.surfacetest">
 
     <application
         android:allowBackup="true"
@@ -8,11 +8,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".CircleActivity">
+        <activity android:name="com.wj.surfacetest.MainActivity"></activity>
+        <activity android:name="com.wj.surfacetest.CircleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".FiveActivity">
+        <activity android:name="com.wj.surfacetest.FiveActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.ylw.surfacetest;
+package com.wj.surfacetest;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

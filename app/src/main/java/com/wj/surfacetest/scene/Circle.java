@@ -1,4 +1,4 @@
-package com.ylw.surfacetest.scene;
+package com.wj.surfacetest.scene;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
